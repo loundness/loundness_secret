@@ -1,2 +1,19 @@
-<h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
+<h1>Page d'accueil</h1>
+
+
+		<%= form_tag('users/create')%>
+    	    
+<br/>
+		<a>Entrez votre mail</a>
+		<%= text_field_tag 'email'%>
+<br/>			
+
+      <a>Entrez votre mot de passe</a>
+		<%= text_field_tag 'password'%>
+		<%= submit_tag%> 
+
+<br/>
+<br/>
+
+<a href="/secret">Pour accéder à la page secret</a>		
+
